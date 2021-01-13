@@ -1,0 +1,183 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	/*Header Section CSS Start*/
+	.a-tag{
+		margin-left: 0 !important;
+	}
+	/*Header Section CSS End*/
+
+	/*Slider Section CSS Start*/
+	.text-content{
+		margin-top: 0;
+	}
+	.text-content h1{
+		font-size: 25px;
+	}
+	.text-content h3{
+		font-size: 22px;
+	}
+	.text-content p{
+		font-size: 16px;
+	}
+	.slider-icons .slider-icon{
+		margin-bottom: 10px;
+	}
+	/*Slider Section CSS End*/
+
+	/*Feature Section CSS Start*/
+	.feature-section{
+		padding-top: 30px;
+		padding-bottom: 10px;
+	}
+	.header-text{
+		font-size: 25px;
+	}
+	.p-text{
+		font-size: 16px;
+		padding-bottom: 20px;
+	}
+	.feature-text{
+		text-align: center;
+	}
+	.pb-5{
+		padding-bottom: 0 !important;
+	}
+	/*Feature Section CSS End*/
+
+	/*Contact Section CSS Start*/
+	.contact-section {
+    	padding-top: 30px;
+    	padding-bottom: 50px;
+	}
+	.button-submit {
+    margin-top: 15px;
+    margin-left: 60%;
+	}
+	.social-icons{
+		padding-top: 30px;
+	}
+	/*Contact Section CSS End*/
+
+	/*Footer Section CSS Start*/
+	.footer-section{
+		padding-bottom: 30px;
+	}
+	.sm-center{
+		text-align: center;
+		padding-bottom: 15px;
+	}
+	.footer-anchor{
+		text-align: center;
+		padding-bottom: 15px;
+	}
+	/*Footer Section CSS End*/
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*Header Section CSS Start*/
+	.a-tag{
+		margin-left: 0 !important;
+	}
+	/*Header Section CSS End*/
+
+	/*Slider Section CSS Start*/
+	.text-content{
+		margin-top: 0;
+	}
+	.slider-icons .slider-icon{
+		margin-bottom: 10px;
+	}
+	/*Slider Section CSS End*/
+
+	/*Feature Section CSS Start*/
+	.feature-section {
+    	padding-top: 60px;
+    	padding-bottom: 30px;
+	}
+	.feature-text{
+		text-align: center;
+	}
+	.p-text{
+		font-size: 18px;
+	}
+	/*Feature Section CSS End*/
+
+	/*Contact Section CSS Start*/
+	.contact-section {
+    	padding-top: 40px;
+    	padding-bottom: 60px;
+	}
+	/*Contact Section CSS End*/
+
+	/*Footer Section CSS Start*/
+	.footer-section{
+		padding-bottom: 40px;
+	}
+	.sm-center{
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.footer-anchor{
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	/*Footer Section CSS End*/
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*Header Section CSS Start*/
+	.a-tag{
+		margin-left: 0 !important;
+	}
+	/*Header Section CSS End*/
+
+	/*Slider Section CSS Start*/
+	.text-content h1{
+		font-size: 28px;
+	}
+	.text-content h3{
+		font-size: 22px;
+	}
+	.slider-icons .slider-icon{
+		margin-bottom: 10px;
+	}
+	/*Slider Section CSS End*/
+
+	/*Feature Section CSS Start*/
+	.feature-section{
+		padding-top: 70px;
+		padding-bottom: 40px;
+	}
+	.p-text{
+		font-size: 18px;
+	}
+	.pb-5{
+		padding-bottom: 2rem !important;
+	}
+	/*Feature Section CSS End*/
+
+	/*Contact Section CSS Start*/
+	.contact-section{
+		padding-top: 50px;
+		padding-bottom: 70px;
+	}
+	/*Contact Section CSS End*/
+
+	/*Footer Section CSS Start*/
+	.footer-section{
+		padding-bottom: 50px;
+	}
+	/*Footer Section CSS End*/
+}
+
+/* devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+}

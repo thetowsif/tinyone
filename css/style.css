@@ -1,0 +1,212 @@
+/*Global CSS*/
+*{
+	font-family: 'PT Sans', sans-serif;
+	color: #010101;
+}
+
+/*Header Section CSS Start*/
+.header-section{
+	background: #fcdb00;
+	padding: 20px 0;
+}
+.navbar-toggler:focus{
+	outline: 0;
+}
+.a-tag{
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101 !important;
+	margin-left: 74px !important;
+	transition: 0.4s ease;
+}
+.a-tag:hover{
+	color: white !important;
+}
+.a-tag:last-child{
+	padding-right: 0 !important;
+}
+/*Headder Section CSS End*/
+
+/*Slidder Section CSS Start*/
+.slider-section{
+	background: #fcdb00;
+	padding-bottom: 100px;
+}
+.carousel-custom {
+	bottom: -90px;
+}
+.carousel-custom li{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+.text-content{
+	margin-top: 50px;
+}
+.text-content h1{
+	font-size: 32px;
+	font-weight: 700;
+}
+.text-content h3{
+	font-size: 24px;
+	font-weight: 400;
+	color: #313841;
+}
+.text-content p{
+	font-size: 16px;
+	color: #555555;
+}
+.slider-icons .slider-icon{
+	font-size: 42px;
+	padding-right: 20px;
+	transition: 0.4s ease;
+	transform: rotate(30deg);
+	animation: roll 2s infinite;
+	animation-direction: alternate;
+}
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*Slidder Section CSS End*/
+
+/*Feature Section CSS Start*/
+.feature-section{
+	padding-top: 100px;
+}
+.header-text{
+	font-size: 32px;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+.p-text{
+	font-size: 20px;
+	font-weight: 400;
+	padding-bottom: 40px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+.feature-icon .single-icon{
+	font-size: 50px;
+}
+.feature-h2{
+	font-size: 22px;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+.feature-p{
+	font-size: 16px;
+	color: #898989;
+	letter-spacing: 0.5px;
+	word-spacing: 2px;
+	line-height: 22px;
+}
+/*Feature Section CSS End*/
+
+/*Counter Section CSS Start*/
+.counter-section{
+	background: #fcdb00;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.text-dark{
+	font-weight: 700;
+}
+.counter-p{
+	font-size: 35px;
+	font-weight: 600;
+}
+/*Counter Section CSS End*/
+
+/*jQuery UI Section CSS Start*/
+.jquery-ui{
+	background: #fcdb00;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+/*jQuery UI Section CSS End*/
+
+/*Contact Section CSS Start*/
+.contact-section{
+	background: #010101;
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+.header-color{
+	color: #fcdb00;
+}
+.p-color{
+	color: #898989;
+}
+.email-input{
+	font-family: 'PT Sans', sans-serif;
+	height: 50px;
+}
+.email-input:focus{
+	outline: 0;
+    box-shadow: none;
+}
+.button-submit{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	height: 50px;
+	background: #fcdb00;
+	color: #010101;
+	transition: 0.4s ease-in-out;
+}
+.button-submit:focus{
+	outline: 0;
+    box-shadow: none;
+}
+.button-submit:hover{
+	background: white;
+}
+.social-icons{
+	padding-top: 60px;
+}
+.social-icon{
+	font-size: 30px;
+	background: #fcdb00;
+    color: #010101;
+    padding-top: 5px;
+    margin-left: 9px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.social-icon:hover{
+	background: white;
+	cursor: pointer;
+}
+/*Contact Section CSS End*/
+
+/*Footer Section CSS Start*/
+.footer-section{
+	background: #010101;
+	padding-bottom: 80px;
+}
+.footer-anchor p{
+	margin: 0;
+}
+.footer-anchor p a{
+	color: white;
+}
+/*Footer Section CSS End*/
+/* external css edits from BT */
+.jquery-ui-button {
+	background-color: #FCDB00;
+	color: black;
+	font-weight: 700;
+	border: 1px solid black;
+}
+.jq-ui-text {
+	font-family: sans-serif;
+	font-weight: 500;
+}
+
+/* external css edits from BT */
